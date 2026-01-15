@@ -1,5 +1,5 @@
 <Solution>
   <Project Path="Ex04.Menues.Events/Ex04.Menus.Events.csproj" Id="526e184c-b5b9-4ee4-a7d3-a75981ec31d3" />
-  <Project Path="Ex04.Menus.Interfaces/Ex04.Menus.Interfaces.csproj" Id="31d04938-2018-4acd-bb18-1e2a0e52f432" />
+  <Project Path="Ex04.Menus.Interfaces/Ex04.Menus.Interfaces.csproj" Id="a9e7325c-31e3-4bb0-af48-636466763e93" />
   <Project Path="Ex04.Menus.Test/Ex04.Menus.Test.csproj" Id="4e08854c-ccef-4f79-be09-dd4ca5ef8448" />
 </Solution>

@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{31D04938-2018-4ACD-BB18-1E2A0E52F432}</ProjectGuid>
+    <ProjectGuid>{A9E7325C-31E3-4BB0-AF48-636466763E93}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>Ex04.Menus.Interfaces</RootNamespace>
     <AssemblyName>Ex04.Menus.Interfaces</AssemblyName>
