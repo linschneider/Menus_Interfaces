@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E08854C-CCEF-4F79-BE09-DD4CA5EF8448}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Ex04.Menus.Test</RootNamespace>
-    <AssemblyName>Ex04.Menus.Test</AssemblyName>
+    <ProjectGuid>{31D04938-2018-4ACD-BB18-1E2A0E52F432}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Ex04.Menus.Interfaces</RootNamespace>
+    <AssemblyName>Ex04.Menus.Interfaces</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,28 +32,18 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Actions.cs" />
-    <Compile Include="CountLowercaseListener.cs" />
-    <Compile Include="EventsMenuBuilder.cs" />
-    <Compile Include="InterfaceMenuBuilder.cs" />
-    <Compile Include="Program.cs" />
-    <Compile Include="ShowDateListener.cs" />
-    <Compile Include="ShowTimeListener.cs" />
-    <Compile Include="ShowVersionListener.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ex04.Menues.Events\Ex04.Menus.Events.csproj">
-      <Project>{526e184c-b5b9-4ee4-a7d3-a75981ec31d3}</Project>
-      <Name>Ex04.Menus.Events</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Ex04.Menus.Interfaces\Ex04.Menus.Interfaces.csproj">
-      <Project>{31d04938-2018-4acd-bb18-1e2a0e52f432}</Project>
-      <Name>Ex04.Menus.Interfaces</Name>
-    </ProjectReference>
+    <Compile Include="ActionMenuItem.cs" />
+    <Compile Include="IMenuItemSelectedListener.cs" />
+    <Compile Include="MainMenu.cs" />
+    <Compile Include="MenuItem.cs" />
+    <Compile Include="SubMenuItem.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
